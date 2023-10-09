@@ -1,0 +1,1 @@
+python generate_lesion_measures.py --fold=1 --network-name='unet' --input-patch-size=192
