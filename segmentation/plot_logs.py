@@ -1,4 +1,3 @@
-#%%
 '''
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the MIT License.
@@ -47,7 +46,6 @@ def plot_train_logs(train_fpaths, valid_fpaths, network_names):
     ax[1].set_title('Valid DSC', fontsize=25)
     ax[0].set_ylabel('Dice loss', fontsize=20)
     ax[1].set_ylabel('Dice score', fontsize=20)
-    # fig.suptitle(os.path.basename(save_logs_dir), fontsize=20)
     ax[0].grid(True)
     ax[1].grid(True)
     plt.show()

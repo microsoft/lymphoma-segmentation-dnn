@@ -1,4 +1,3 @@
-#%%
 '''
 Copyright (c) Microsoft Corporation. All rights reserved.
 Licensed under the MIT License.
@@ -222,7 +221,6 @@ def main(args):
     network = args.network_name
     inputsize = f'randcrop{args.input_patch_size}'
 
-    # extrafeature = 'petnotnormalized_p2'
     experiment_code = f"{network}_fold{fold}_{inputsize}"
 
     #save models folder
