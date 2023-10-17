@@ -55,10 +55,6 @@ Follow the intructions given below to set up the necessary conda environment, in
     To run an lesion measures generation script, follow the detailed instructions given in [/documentation/generate_lesion_measures.md](/documentation/generate_lesion_measures.md).
 
 
-- **Data analysis:**  
-    We also provide some codes for performing data analysis, plotting and visualization. They can be found under [/data_analysis](/data_analysis/). These are just meant as tutorials and will likely not be maintained.
-
-
 # Acknowledgments
 <p align="center">
   <img src="./documentation/assets/all_logos.png" alt="Table1" height="250" />
