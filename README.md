@@ -29,7 +29,7 @@ Insert paper citation after published
 ## How to get started?
 Follow the intructions given below to set up the necessary conda environment, install packages, process dataset in the correct format so it can be accepted as inputs by our code, train models, perform inferences on trained models, compute evaluation metrics (for segmentation and detection) on the test set, and calculate lesion measures from the predicted 3D lesions masks. 
 
-- **Clone the repository, create conda enviroment and install necessary packages:**  
+- **Clone the repository, create conda environment and install necessary packages:**  
     The first step is to clone this GitHub codebase in your local machine, create a conda environment, and install all the necessary packages. For this step, follow the detailed instructions in [/documentation/conda_env.md](/documentation/conda_env.md). 
 
 - **Get your dataset in the required format:**  
