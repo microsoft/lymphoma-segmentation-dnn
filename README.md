@@ -20,9 +20,9 @@ In this work, we trained four deep neural networks, **UNet**, **SegResNet**, **D
   <img src="./documentation/assets/cohort_table.png" alt="Table1" height="250" />
 </p>
 
-Please cite the following paper when you use our code or trained models:
+Please cite the following paper when you use our code:
 ```
-Insert paper citation after published
+S. Ahamed, Y. Xu, C. Gowdy, I. Bloise, D. Wilson, P. Martineau, F. Bénard, F. Yousefirizi, R. Dodhia, J. M. Lavista, W. B. Weeks, C. F. Uribe, A. Rahmim, Comprehensive Evaluation and Insights into the Use of Deep Neural Networks to Detect and Quantify Lymphoma Lesions in PET/CT Images, arXiv:2311.09614.
 ```
 
 
