@@ -1,6 +1,15 @@
 # Lymphoma lesion segmentation and quantitation from FDG PET/CT images using deep neural networks
 
 ## Introduction
+
+Please cite the following paper when you use our code:<br>
+> S. Ahamed, Y. Xu, C. Gowdy, I. Bloise, D. Wilson, P. Martineau, F. Bénard, F. Yousefirizi, R. Dodhia, J. M. Lavista, W. B. Weeks, C. F. Uribe, A. Rahmim,
+> Comprehensive Evaluation and Insights into the Use of Deep Neural Networks to Detect and Quantify Lymphoma Lesions in PET/CT Images,
+> [arXiv:2311.09614](https://arxiv.org/pdf/2311.09614.pdf).
+
+
+Lymphoma lesion segmentation and quantitation plays a pivotal role in the diagnosis, treatment planning, and monitoring of lymphoma patients. Accurate segmentation allows for the precise delineation of pathological regions, aiding clinicians in assessing disease extent and progression. Moreover, lesion quantitation, such as measuring lesion size and metabolic activity, etc. provides critical information for treatment response evaluation. Deep learning-based segmentation methods have emerged as a game-changer in this domain, offering the potential to automate and standardize lesion delineation, reducing inter-observer variability and saving valuable clinical time. 
+
 <p align="center">
   <img src="./documentation/assets/segmentation_performance_visualization.png" alt="Figure" height="600" />
   <br>
@@ -11,19 +20,12 @@
   </em>
 </p>
 
-
-Lymphoma lesion segmentation and quantitation plays a pivotal role in the diagnosis, treatment planning, and monitoring of lymphoma patients. Accurate segmentation allows for the precise delineation of pathological regions, aiding clinicians in assessing disease extent and progression. Moreover, lesion quantitation, such as measuring lesion size and metabolic activity, etc. provides critical information for treatment response evaluation. Deep learning-based segmentation methods have emerged as a game-changer in this domain, offering the potential to automate and standardize lesion delineation, reducing inter-observer variability and saving valuable clinical time. 
-
 In this work, we trained four deep neural networks, **UNet**, **SegResNet**, **DynUNet**, and **SwinUNETR** (adapted from MONAI [1]) for the segmentation of lesions from multi-institutional FDG PET/CT images. In this work, we used a large and diverse whole-body PET/CT dataset with a total of **611 cases** coming from four retrospective cohorts, as given in Table 1 below. The first three cohorts (internal cohorts) are privately-owned lymphoma datasets, while the fourth cohort is a subset of the public dataset acquired from [2]. Our models were trained/validated on 80% dataset from the former three cohorts. The remaining 20% data from these three cohorts was used as internal test set, while the fourth cohort was solely used as an external (unseen) test set.    
 
 <p align="center">
   <img src="./documentation/assets/cohort_table.png" alt="Table1" height="250" />
 </p>
 
-Please cite the following paper when you use our code:
-```
-S. Ahamed, Y. Xu, C. Gowdy, I. Bloise, D. Wilson, P. Martineau, F. Bénard, F. Yousefirizi, R. Dodhia, J. M. Lavista, W. B. Weeks, C. F. Uribe, A. Rahmim, Comprehensive Evaluation and Insights into the Use of Deep Neural Networks to Detect and Quantify Lymphoma Lesions in PET/CT Images, arXiv:2311.09614.
-```
 
 
 ## How to get started?
