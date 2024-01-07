@@ -4,7 +4,7 @@
 
 Please cite the following paper when you use our code:<br>
 > S. Ahamed, Y. Xu, C. Gowdy, I. Bloise, D. Wilson, P. Martineau, F. Bénard, F. Yousefirizi, R. Dodhia, J. M. Lavista, W. B. Weeks, C. F. Uribe, A. Rahmim,
-> Comprehensive Evaluation and Insights into the Use of Deep Neural Networks to Detect and Quantify Lymphoma Lesions in PET/CT Images,
+> _Comprehensive Evaluation and Insights into the Use of Deep Neural Networks to Detect and Quantify Lymphoma Lesions in PET/CT Images_,
 > [arXiv:2311.09614](https://arxiv.org/pdf/2311.09614.pdf).
 
 
