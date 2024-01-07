@@ -7,7 +7,7 @@ To get started, the first step is the clone this repository to your local machin
 
 ```
 git clone 'https://github.com/microsoft/lymphoma-segmentation-dnn.git'
-cd lymphoma.segmentation
+cd lymphoma-segmentation-dnn
 ```
 
 ## Installing packages from `environment.yml` file
