@@ -6,7 +6,7 @@ Welcome to our GitHub codebase for lymphoma lesion segmentation from PET/CT imag
 To get started, the first step is the clone this repository to your local machine and navigate inside the resulting git directory:
 
 ```
-git clone 'https://github.com/ahxmeds/lymphoma.segmentation.dnn.git'
+git clone 'https://github.com/microsoft/lymphoma-segmentation-dnn.git'
 cd lymphoma.segmentation
 ```
 
