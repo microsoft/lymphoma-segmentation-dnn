@@ -67,8 +67,8 @@ inputsize_dict = {
 experiment_code = [f"{network[i]}_fold{fold}_randcrop{inputsize[i]}" for i in range(len(network))]
 save_logs_dir = os.path.join(RESULTS_FOLDER, 'logs')
 save_logs_folders = [os.path.join(save_logs_dir, 'fold'+str(fold), network[i], experiment_code[i]) for i in range(len(experiment_code))]
-train_fpaths = [os.path.join(save_logs_folders[i], 'trainloss_gpu0.csv') for i in range(len(save_logs_folders))]
-valid_fpaths = [os.path.join(save_logs_folders[i], 'validdice_gpu0.csv') for i in range(len(save_logs_folders))]
+train_fpaths = [os.path.join(save_logs_folders[i], 'trainlog_gpu0.csv') for i in range(len(save_logs_folders))]
+valid_fpaths = [os.path.join(save_logs_folders[i], 'validlog_gpu0.csv') for i in range(len(save_logs_folders))]
 legend_lbls = [f'{network[i]}, N = {inputsize[i]}' for i in range(len(network))]
 plot_train_logs(train_fpaths, valid_fpaths, legend_lbls)
 
